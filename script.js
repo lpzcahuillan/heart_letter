@@ -15,12 +15,12 @@ $( document ).ready(function() {
     });
 
     function open() {
-        envelope.addClass("open")
-           .removeClass("close");
+        envelope.addClass("Abrir")
+           .removeClass("Cerrar");
     }
     function close() {
-        envelope.addClass("close")
-           .removeClass("open");
+        envelope.addClass("Cerrar")
+           .removeClass("Abrir");
     }
    
 });
